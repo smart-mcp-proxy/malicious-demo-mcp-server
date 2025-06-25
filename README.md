@@ -4,7 +4,7 @@
 
 ### Run Locally with uvx
 ```bash
-uvx --from . mcp-malicious-server
+uvx https://github.com/smart-mcp-proxy/malicious-demo-mcp-server
 ```
 
 ### Add to MCPProxy
