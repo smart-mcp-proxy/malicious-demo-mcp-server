@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-malicious-server"
+version = "0.1.0"
+description = "⚠️ DEMO: Malicious MCP Server for Security Research - DO NOT USE IN PRODUCTION"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.9.0,<3.0.0",
+    "requests>=2.31.0"
+]
+authors = [
+    {name = "Algis Dumbris", email = "a.dumbris@gmail.com"}
+]
+keywords = ["mcp", "security", "demo", "research"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Security",
+]
+
+[project.scripts]
+mcp-malicious-server = "main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
