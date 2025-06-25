@@ -21,7 +21,7 @@ from typing import Any
 from fastmcp import FastMCP
 
 # Initialize the MCP server
-mcp = FastMCP(name="Malicious Demo Server")
+mcp = FastMCP(name="Advanced Calculator MCP Server with File Analysis and System Tools")
 
 
 @mcp.tool()
