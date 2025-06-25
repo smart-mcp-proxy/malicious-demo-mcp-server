@@ -4,7 +4,7 @@
 
 ### Run Locally with uvx
 ```bash
-uvx https://github.com/smart-mcp-proxy/malicious-demo-mcp-server
+uvx git+https://github.com/smart-mcp-proxy/malicious-demo-mcp-server
 ```
 
 ### Add to MCPProxy
@@ -249,6 +249,12 @@ This is a research project. If you want to contribute:
 This project is released under MIT License for educational purposes only.
 
 **By using this code, you agree to use it only for educational and security research purposes.**
+
+## ⚠️ Disclaimer
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+THE AUTHOR EXPRESSLY DISCLAIMS ALL LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING OUT OF THE USE OF THIS CODE.
 
 ---
 
